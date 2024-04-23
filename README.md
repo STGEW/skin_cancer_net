@@ -1,9 +1,13 @@
 # Environment
+
 conda create -n develop_cancer_detection python=3.10
+
 conda activate develop_cancer_detection
 
 conda install pytorch torchvision cpuonly -c pytorch
+
 conda install matplotlib
+
 conda install jupyterlab 
 
 # Inception V3
